@@ -38,17 +38,17 @@ function Header() {
       />
 
       <h1 className="text-2xl md:text-6xl font-semibold md:font-bold tracking-tighter mb-6 text-zinc-100">
-        thirdweb SDK
+        Garbage Blast Frens
         <span className="text-zinc-300 inline-block mx-1"> + </span>
-        <span className="inline-block -skew-x-6 text-blue-500"> Next.js </span>
+        <span className="inline-block -skew-x-6 text-blue-500">  </span>
       </h1>
 
       <p className="text-zinc-300 text-base">
-        Read the{" "}
+        Mint on{" "}
         <code className="bg-zinc-800 text-zinc-300 px-2 rounded py-1 text-sm mx-1">
-          README.md
+          BLASTR
         </code>{" "}
-        file to get started.
+        0.0069Ξ
       </p>
     </header>
   );
@@ -56,23 +56,23 @@ function Header() {
 
 function ThirdwebResources() {
   return (
-    <div className="grid gap-4 lg:grid-cols-3 justify-center">
+    <div className="grid gap-4 lg:grid-cols-3 justify-">
       <ArticleCard
-        title="thirdweb SDK Docs"
-        href="https://portal.thirdweb.com/typescript/v5"
-        description="thirdweb TypeScript SDK documentation"
+        title="Follow us on 𝕏"
+        href="https://twitter.com/BlastFrensNFTs"
+        description="@BlastFrensNFTs"
       />
 
       <ArticleCard
-        title="Components and Hooks"
-        href="https://portal.thirdweb.com/typescript/v5/react"
-        description="Learn about the thirdweb React components and hooks in thirdweb SDK"
+        title="Mint on BLASTR"
+        href="https://blastr.xyz/blastfrens"
+        description="https://blastr.xyz/blastfrens"
       />
 
       <ArticleCard
-        title="thirdweb Dashboard"
-        href="https://thirdweb.com/dashboard"
-        description="Deploy, configure, and manage your smart contracts from the dashboard."
+        title="Staking (Coming Soon)"
+        href="https://blastr.xyz/blastfrens"
+        description="When should we launch staking? Let us know!"
       />
     </div>
   );
