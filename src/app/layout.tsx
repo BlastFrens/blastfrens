@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Blast Frens",
   description:
-    "Starter template for using thirdweb SDK with Next.js App router",
+    "Paying homage to the legends from 1985 meet in 2024 Garbage Blast Frens",
 };
 
 export default function RootLayout({
